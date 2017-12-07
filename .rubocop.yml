@@ -919,6 +919,10 @@ Style/WhileUntilDo:
 Style/ZeroLengthPredicate:
   Enabled: true
 
+Style/TrailingCommaInLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: consistent_comma
+
 Layout/IndentHeredoc:
   EnforcedStyle: squiggly
 
