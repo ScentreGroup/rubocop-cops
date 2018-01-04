@@ -874,8 +874,8 @@ Layout/SpaceInsideArrayPercentLiteral:
 Layout/SpaceInsidePercentLiteralDelimiters:
   Enabled: true
 
-Layout/SpaceInsideBrackets:
-  Enabled: true
+Layout/SpaceInsideArrayLiteralBrackets:
+  EnforcedStyle: no_space
 
 Layout/SpaceInsideParens:
   Enabled: true
