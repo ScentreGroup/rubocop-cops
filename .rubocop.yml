@@ -498,8 +498,8 @@ Naming/VariableName:
   - snake_case
   - camelCase
 
-Style/WhileUntilModifier:
-  MaxLineLength: 80
+Metrics/LineLength:
+  Max: 80
 
 Style/WordArray:
   EnforcedStyle: percent
