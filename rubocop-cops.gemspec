@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = 'Rubocop config which we gonna add to all ruby projects'
   s.authors     = ['Scentregroup']
   s.email       = 'digitalplatforms@scentregroup.com'
-  s.files       = ['.rubocop.yml']
+  s.files       = ['rubocop.yml']
   s.license     = 'MIT'
 
   s.add_dependency 'rubocop-rails', '~> 2.1'
