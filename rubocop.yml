@@ -24,7 +24,7 @@ Style/Alias:
   - prefer_alias
   - prefer_alias_method
 
-Layout/AlignHash:
+Layout/HashAlignment:
   EnforcedHashRocketStyle: key
   EnforcedColonStyle: key
   EnforcedLastArgumentHashStyle: ignore_implicit
@@ -34,7 +34,7 @@ Layout/AlignHash:
   - ignore_implicit
   - ignore_explicit
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
   SupportedStyles:
   - with_first_parameter
@@ -222,7 +222,7 @@ Layout/IndentationConsistency:
 Layout/IndentationWidth:
   Width: 2
 
-Layout/IndentFirstArrayElement:
+Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
   SupportedStyles:
   - special_inside_parentheses
@@ -230,10 +230,10 @@ Layout/IndentFirstArrayElement:
   - align_brackets
   IndentationWidth:
 
-Layout/IndentAssignment:
+Layout/AssignmentIndentation:
   IndentationWidth:
 
-Layout/IndentFirstHashElement:
+Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
   SupportedStyles:
   - special_inside_parentheses
@@ -336,9 +336,9 @@ Style/PercentQLiterals:
 Naming/PredicateName:
   NamePrefix:
   - is_
-  NamePrefixBlacklist:
+  ForbiddenPrefixes:
   - is_
-  NameWhitelist:
+  AllowedMethods:
   - is_a?
   Exclude:
   - 'spec/**/*'
@@ -458,7 +458,7 @@ Style/TernaryParentheses:
   - require_no_parentheses
   AllowSafeAssignment: true
 
-Layout/TrailingBlankLines:
+Layout/TrailingEmptyLines:
   EnforcedStyle: final_newline
   SupportedStyles:
   - final_newline
@@ -469,7 +469,7 @@ Style/TrivialAccessors:
   AllowPredicates: true
   AllowDSLWriters: false
   IgnoreClassMethods: false
-  Whitelist:
+  AllowedMethods:
   - to_ary
   - to_a
   - to_c
@@ -891,13 +891,13 @@ Layout/TrailingWhitespace:
 Style/UnlessElse:
   Enabled: true
 
-Style/UnneededCapitalW:
+Style/RedundantCapitalW:
   Enabled: true
 
-Style/UnneededInterpolation:
+Style/RedundantInterpolation:
   Enabled: true
 
-Style/UnneededPercentQ:
+Style/RedundantPercentQ:
   Enabled: true
 
 Style/VariableInterpolation:
@@ -920,7 +920,7 @@ Style/TrailingCommaInHashLiteral:
   Enabled: true
   EnforcedStyleForMultiline: consistent_comma
 
-Layout/IndentHeredoc:
+Layout/HeredocIndentation:
   EnforcedStyle: squiggly
 
 Lint/AmbiguousOperator:
@@ -944,7 +944,7 @@ Lint/DeprecatedClassMethods:
 Lint/DuplicateMethods:
   Enabled: true
 
-Lint/DuplicatedKey:
+Lint/DuplicatedHashKey:
   Enabled: true
 
 Lint/EachWithObjectArgument:
@@ -1027,7 +1027,7 @@ Lint/ShadowedException:
 Lint/ShadowingOuterLocalVariable:
   Enabled: true
 
-Lint/StringConversionInInterpolation:
+Lint/RedundantStringCoercion:
   Enabled: true
 
 Lint/UnderscorePrefixedVariableName:
@@ -1036,7 +1036,7 @@ Lint/UnderscorePrefixedVariableName:
 Lint/UnifiedInteger:
   Enabled: true
 
-Lint/UnneededSplatExpansion:
+Lint/RedundantSplatExpansion:
   Enabled: true
 
 Lint/UnreachableCode:
