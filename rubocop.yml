@@ -944,7 +944,7 @@ Lint/DeprecatedClassMethods:
 Lint/DuplicateMethods:
   Enabled: true
 
-Lint/DuplicatedHashKey:
+Lint/DuplicatedKey:
   Enabled: true
 
 Lint/EachWithObjectArgument:
@@ -971,7 +971,7 @@ Lint/FloatOutOfRange:
 Lint/FormatParameterMismatch:
   Enabled: true
 
-Lint/SuppressedExceptions:
+Lint/SuppressedException:
   Enabled: true
 
 Lint/ImplicitStringConcatenation:
