@@ -176,7 +176,7 @@ Naming/FileName:
   Regex:
   IgnoreExecutableScripts: true
 
-Layout/IndentFirstArgument:
+Layout/FirstArgumentIndentation:
   EnforcedStyle: consistent
   SupportedStyles:
   - consistent
@@ -505,7 +505,7 @@ Style/WordArray:
 Metrics/BlockNesting:
   Max: 3
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 80
   AllowHeredoc: true
   AllowURI: true
@@ -639,7 +639,7 @@ Rails/Validation:
 Naming/AccessorMethodName:
   Enabled: true
 
-Layout/AlignArray:
+Layout/ArrayAlignment:
   Enabled: true
 
 Style/ArrayJoin:
@@ -971,7 +971,7 @@ Lint/FloatOutOfRange:
 Lint/FormatParameterMismatch:
   Enabled: true
 
-Lint/HandleExceptions:
+Lint/SuppressedExceptions:
   Enabled: true
 
 Lint/ImplicitStringConcatenation:
