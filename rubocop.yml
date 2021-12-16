@@ -911,7 +911,7 @@ Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: consistent_comma
 
 Layout/HeredocIndentation:
-  EnforcedStyle: squiggly
+  Enabled: true
 
 Lint/AmbiguousOperator:
   Enabled: true
