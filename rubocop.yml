@@ -746,9 +746,6 @@ Style/LineEndConcatenation:
 Style/MethodCallWithoutArgsParentheses:
   Enabled: true
 
-Style/MethodMissingSuper:
-  Enabled: true
-
 Style/MissingRespondToMissing:
   Enabled: true
 
@@ -875,7 +872,7 @@ Layout/SpaceInsideRangeLiteral:
 Style/SymbolLiteral:
   Enabled: true
 
-Layout/Tab:
+Layout/IndentationStyle:
   Enabled: true
 
 Layout/TrailingWhitespace:
@@ -920,6 +917,9 @@ Lint/AmbiguousOperator:
   Enabled: true
 
 Lint/AmbiguousRegexpLiteral:
+  Enabled: true
+
+Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: true
 
 Lint/CircularArgumentReference:
@@ -982,6 +982,9 @@ Lint/Loop:
   Description: Use Kernel#loop with break rather than begin/end/until or begin/end/while
     for post-loop tests.
 
+Lint/MissingSuper:
+  Enabled: true
+
 Lint/NestedMethodDefinition:
   Enabled: true
 
@@ -1036,9 +1039,6 @@ Lint/UselessAccessModifier:
   ContextCreatingMethods: []
 
 Lint/UselessAssignment:
-  Enabled: true
-
-Lint/UselessComparison:
   Enabled: true
 
 Lint/UselessElseWithoutRescue:
