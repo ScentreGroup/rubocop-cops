@@ -1,5 +1,7 @@
-require:
+plugins:
   - rubocop-rails
+
+require:
   - rubocop-rspec
 
 AllCops:
@@ -302,7 +304,7 @@ Style/PercentQLiterals:
     - lower_case_q
     - upper_case_q
 
-Naming/PredicateName:
+Naming/PredicatePrefix:
   NamePrefix:
     - is_
   ForbiddenPrefixes:
@@ -530,7 +532,7 @@ Rails/Date:
     - flexible
 
 Rails/DynamicFindBy:
-  Whitelist:
+  AllowedMethods:
     - find_by_sql
 
 Rails/Exit:
